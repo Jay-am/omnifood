@@ -18,23 +18,74 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+.logo {
+  width: 6.25em;
+  height: auto;
+  float: left;
+  margin-top: 3em;
+  margin-left: 15em;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  margin-top: 5.5em;
+  margin-right: 15em;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.25em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 1px solid #e67e22;
+}
+
 
 .hero-text-box {
   display: flex;
+  width: 100%;
+  max-width: 1200px;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  margin-left: 15em;
+  margin-top: 15em;
 }
 
-h1 {
+.headline {
+  width: 100%;
+  align-self: flex-start;
   color: white;
   font-size: 3.5em;
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   word-spacing: 0.15em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+}
+
+.links {
+  align-self: flex-start;
 }
 
 .btn:link,
