@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  background: white;
+  color: #555;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-rendering: optimizeLegibility;
+}
