@@ -23,11 +23,11 @@ header {
 }
 
 .logo {
-  width: 6.25em;
+  width: 5.25em;
   height: auto;
   float: left;
   margin-top: 3em;
-  margin-left: 15em;
+  margin-left: 20.1em;
 }
 
 .main-nav {
@@ -35,8 +35,8 @@ header {
   padding: 0;
   list-style: none;
   float: right;
-  margin-top: 5.5em;
-  margin-right: 15em;
+  margin-top: 5em;
+  margin-right: 20em;
 }
 
 .main-nav li {
@@ -68,7 +68,7 @@ header {
   width: 100%;
   max-width: 1200px;
   flex-direction: column;
-  margin-left: 15em;
+  margin-left: 20.1em;
   margin-top: 25em;
 }
 
@@ -106,7 +106,7 @@ header {
 .btn--full:link,
 .btn--full:visited {
   background: #e67e22;
-  margin-right: 0.25em;
+  margin-right: 0.7em;
 }
 
 .btn--full:hover,
@@ -161,4 +161,12 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 5em;
+  ;
+}
+
+.fas {
+  color: #e67e22;
+  font-size: 2em;
+  font-weight: lighter;
 }
