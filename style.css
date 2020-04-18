@@ -210,7 +210,32 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.9;
+  /* transform: scale(1.0); */
 }
+
+/* .food img::before {
+  content: "";
+  display: block;
+  background: #353535;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all ease-in-out 300ms;
+  z-index: -1;
+} */
+
+.food img:hover {
+  opacity: 1;
+}
+
+/* .food img:hover {
+  transform: scale(1.15);
+  z-index: 2;
+} */
 
 .bibimbap {
   grid-column: span 1;
