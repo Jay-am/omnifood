@@ -65,7 +65,6 @@ header {
   border-bottom: 1px solid #e67e22;
 }
 
-
 .hero-text-box {
   display: flex;
   width: 100%;
@@ -204,8 +203,13 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1.5em;
-  overflow-wrap: inherit;
+  grid-gap: 0.5em;
+}
+
+.food img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bibimbap {
