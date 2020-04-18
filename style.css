@@ -276,3 +276,28 @@ header {
   grid-column: span 1;
   grid-row: span 1;
 }
+
+/* SECTION 3 */
+
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 5em auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bullet-points {}
+
+.content img {
+  width: 10em;
+  height: auto;
+  margin-right: 2em;
+}
