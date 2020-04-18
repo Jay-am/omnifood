@@ -1,3 +1,5 @@
+@import "font-awesome";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +7,12 @@
 }
 
 body {
+  width: 100%;
   background: white;
   color: #555;
   font-family: 'Lato', Arial, sans-serif;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1rem;
   text-rendering: optimizeLegibility;
 }
 
@@ -48,7 +51,7 @@ header {
 .main-nav li a:visited {
   color: white;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   word-spacing: 0.25em;
@@ -76,7 +79,7 @@ header {
   width: 100%;
   align-self: flex-start;
   color: white;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -97,7 +100,7 @@ header {
   text-decoration: none;
   text-align: center;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-weight: 300;
   color: white;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -146,7 +149,7 @@ header {
 .description h2 {
   text-transform: uppercase;
   /* text-align: center; */
-  font-size: 2em;
+  font-size: 2rem;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
   margin-bottom: 1em;
@@ -154,7 +157,7 @@ header {
 
 .description p {
   /* text-align: center; */
-  font-size: 1.2em;
+  font-size: 1.2rem;
   line-height: 1.5em;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
@@ -188,6 +191,59 @@ header {
 
 .fas {
   color: #e67e22;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: lighter;
+}
+
+/* .section-food-pictures {
+  width: 100vw;
+  height: 60vh;
+} */
+
+.food {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1.5em;
+  overflow-wrap: inherit;
+}
+
+.bibimbap {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.pizza {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.chicken {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.soup {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.steak {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.baguette {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.burger {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.granola {
+  grid-column: span 1;
+  grid-row: span 1;
 }
