@@ -296,7 +296,7 @@ p {
 .content img {
   width: 12em;
   height: auto;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .bullet-points {
@@ -318,5 +318,5 @@ p {
   padding: 5px;
   float: left;
   font-size: 150%;
-  margin-right: 25px;
+  margin-right: 1em;
 }
