@@ -175,18 +175,18 @@ p {
   /* margin-left: 0 2em; */
 }
 
-.features h3 {
+h3 {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
   margin-bottom: 0.5em;
 }
 
-.features p {
-  line-height: 1.5em;
+/* .features p {
+  line-height: 1.2em;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
-}
+} */
 
 .fas {
   color: #e67e22;
@@ -323,4 +323,12 @@ p {
 
 .btn-app img {
   width: 8em;
+}
+
+/* SECTION 4 */
+
+.cities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
