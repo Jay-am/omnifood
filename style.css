@@ -303,19 +303,24 @@ h3 {
 
 .bullet-points {
   width: 60%;
-  position: relative;
+  counter-reset: counter-name;
 }
 
 .bullet-points p {
   margin-bottom: 2em;
 }
 
-.bullet-points::before {
-  counter-increment: bullet-points;
-  content: counter(bullet-points);
+.bullet-point {
+  position: relative;
+
+}
+
+.bullet-point::before {
+  counter-increment: counter-name;
+  content: counter(counter-name);
   position: absolute;
   left: -4em;
-  top: 0.5em;
+  top: 0.45em;
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
