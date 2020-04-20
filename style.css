@@ -25,6 +25,30 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+h2 {
+  text-transform: uppercase;
+  /* text-align: center; */
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  /* text-align: center; */
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/hero.jpg);
   background-size: cover;
@@ -154,23 +178,6 @@ header {
   margin-bottom: 6em;
 }
 
-h2 {
-  text-transform: uppercase;
-  /* text-align: center; */
-  font-size: 2rem;
-  letter-spacing: 0.05em;
-  word-spacing: 0.05em;
-  margin-bottom: 1em;
-}
-
-p {
-  /* text-align: center; */
-  font-size: 1.2rem;
-  line-height: 1.5em;
-  letter-spacing: 0.05em;
-  word-spacing: 0.05em;
-}
-
 .section-features {
   display: flex;
   justify-content: space-between;
@@ -182,13 +189,6 @@ p {
 .features {
   width: 22%;
   /* margin-left: 0 2em; */
-}
-
-h3 {
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  word-spacing: 0.05em;
-  margin-bottom: 0.5em;
 }
 
 /* .features p {
@@ -352,8 +352,7 @@ h3 {
 
 .section-4 {
   width: 70%;
-  margin: 0 auto;
-  margin-top: 5em;
+  margin: 5em auto;
 }
 
 .cities {
