@@ -327,12 +327,24 @@ h3 {
 
 /* SECTION 4 */
 
+.section-4 {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
 .cities {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.city {
+  width: 22%;
+  margin-top: 2em;
+}
+
 .city img {
-  width: 14em;
+  width: 100%;
+  margin-bottom: 1em;
 }
