@@ -1,9 +1,14 @@
 @import "font-awesome";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -329,7 +334,6 @@ h3 {
   align-items: center;
   color: #e67e22;
   border: 2px solid #e67e22;
-  box-sizing: border-box;
 }
 
 .btn-app img {
