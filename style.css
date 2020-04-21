@@ -33,6 +33,7 @@ h2 {
   text-transform: uppercase;
   /* text-align: center; */
   font-size: 2rem;
+  font-weight: 300;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
   margin-bottom: 1em;
@@ -382,6 +383,7 @@ header {
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
+  padding: 3em 0;
 }
 
 .section-5 {
@@ -393,13 +395,16 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 3em 0;
-  font-size: 1.25rem;
   font-style: italic;
   color: white;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.05em;
 }
 
 .testimonial+.testimonial {
-  margin-left: 1.5em;
+  margin-left: 2.5em;
 }
 
 .testimonial-review {
@@ -409,7 +414,7 @@ header {
 .testimonial-info {
   display: flex;
   align-items: center;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   font-style: italic;
 }
 
