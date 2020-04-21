@@ -394,7 +394,7 @@ header {
 .testimonials {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0;
+  margin: 3.5em 0;
   font-style: italic;
   color: white;
   font-size: 1.2rem;
@@ -408,7 +408,19 @@ header {
 }
 
 .testimonial-review {
+  margin-top: 1em;
   margin-bottom: 1.5em;
+  position: relative;
+}
+
+.testimonial-review::before {
+  content: open-quote;
+  font-size: 6rem;
+  font-weight: bolder;
+  color: white;
+  position: absolute;
+  left: 14;
+  top: 14;
 }
 
 .testimonial-info {
