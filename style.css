@@ -355,8 +355,8 @@ header {
 .btn-app img {
   width: 8em;
   position: absolute;
-  left: 41em;
-  top: 166em;
+  left: 36em;
+  top: 168em;
   z-index: 5;
 }
 
@@ -364,7 +364,7 @@ header {
 
 .section-4 {
   width: 60%;
-  margin: 6em auto;
+  margin: 6.5em auto;
 }
 
 .cities {
