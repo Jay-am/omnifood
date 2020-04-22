@@ -421,13 +421,13 @@ header {
 }
 
 .testimonial-review::before {
-  content: open-quote;
+  content: '\201F';
   font-size: 6rem;
-  font-weight: bolder;
+  font-weight: lighter;
   color: white;
   position: absolute;
-  left: 14;
-  top: 14;
+  left: -8;
+  top: -8;
 }
 
 .testimonial-info {
