@@ -133,11 +133,11 @@ header {
   display: inline-block;
   border: 1px solid #e67e22;
   border-radius: 70em;
-  padding: 0.5em 0.75em;
+  padding: 0.4em 1.5em;
   text-decoration: none;
   text-align: center;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 300;
   color: white;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
@@ -447,11 +447,28 @@ header {
 /* SECTION 6 */
 
 .sign-up-and-pricing-section {
-  background: #d6d6d6;
+  background: #f4f4f4;
   padding: 3em 0;
 }
 
 .section-6 {
   width: 60%;
   margin: 5em auto;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: white;
+  padding: 2em;
+}
+
+.btn-plan-sign-up a {
+  text-decoration: none;
 }
