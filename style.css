@@ -448,7 +448,7 @@ header {
 
 .sign-up-and-pricing-section {
   background: #f4f4f4;
-  padding: 3em 0;
+  padding: 0;
 }
 
 .section-6 {
@@ -661,4 +661,42 @@ header {
   font-size: 1.1em;
   border-radius: 0.5em;
   box-shadow: inset 0em 0.25em 1em -1 rgba(0, 0, 0, 0.15);
+}
+
+/* FOOTER */
+
+.footer-section {
+  background-color: #555;
+  margin: 0;
+  padding: 2em 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin: 2em auto;
+}
+
+.links {
+  display: flex;
+}
+
+.navigation li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 1em;
+  padding: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #888888;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  color: #888888;
+  font-size: 0.8rem;
 }
