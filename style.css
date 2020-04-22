@@ -550,3 +550,117 @@ header {
 .btn-plan-sign-up a {
   text-decoration: none;
 }
+
+
+/* SECTION 7 */
+
+.contact-form-section {
+  background: white;
+  padding: 3em 0;
+}
+
+.section-7 {
+  width: 60%;
+  margin: 5em auto;
+}
+
+.contact-form {
+  max-width: 400px;
+
+
+  // positioning context
+  div {
+    position: relative;
+    background: white;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+
+    Looks like placeholder label {
+      opacity: 0.3;
+      font-weight: lighter;
+      position: absolute;
+      font-size: 1em;
+      top: 1.25em;
+      left: 1.25em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      border: solid 1px rgba(#333, 0.3);
+      border-radius: 0.5em;
+      padding: 1.25em 1.25em 1.25em 3.15em;
+      background: white;
+      font-size: 1em;
+      font-weight: lighter;
+      box-shadow: rgba(0, 0, 0, 0.1) 0.375em 0.375em 0.875em -0.125em inset;
+
+      &:focus {
+        // removing default focus style
+        outline: 0;
+        // adding new one
+        background: white;
+
+        &+label {
+          opacity: 0;
+        }
+      }
+
+      &:valid {
+        background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+        background-size: 1.25em;
+        background-repeat: no-repeat;
+        background-position: 1.25em 1.25em;
+
+        &+label {
+          opacity: 0;
+        }
+      }
+
+      &:invalid:not(:focus):not(:placeholder-shown) {
+        // background: pink;
+        border-radius: 0.5em;
+
+        &+label {
+          opacity: 0;
+        }
+      }
+
+      &:invalid:focus:not(:placeholder-shown) {
+        &~.requirements {
+          border-radius: 0.5em;
+          max-height: 200px;
+          padding: 0 1.85em 1.25em 3.15em;
+        }
+      }
+    }
+
+    .requirements {
+      padding: 0 2em 0 3.15em;
+      color: #999;
+      max-height: 0;
+      transition: 0.28s;
+      overflow: hidden;
+      color: rgba(255, 0, 0, 0.8);
+      font-style: normal;
+      font-size: 0.75em;
+      font-weight: lighter;
+    }
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+    background: #18597f;
+    color: white;
+    border: none;
+    padding: 1.15em;
+    font-size: 1.1em;
+    border-radius: 0.5em;
+    box-shadow: inset 0em 0.25em 1em -1 rgba(#000, 0.15);
+    // text-transform: uppercase;
+  }
+
+}
