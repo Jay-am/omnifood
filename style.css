@@ -469,6 +469,65 @@ header {
   padding: 2em;
 }
 
+.plan-pricing {
+  border-bottom: 1px solid #efefef;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: lighter;
+  line-height: 2.5rem;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.price span {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #e67e22;
+}
+
+.per-meal {
+  font-size: 0.9rem;
+  color: lightgrey;
+  font-weight: 300;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.per-meal-starter {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 300;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.plan-details {
+  padding: 1.5em 0;
+  text-align: left;
+  border-bottom: 1px solid #efefef;
+}
+
+.detail {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.detail::before {
+  content: 'x';
+  position: absolute;
+  left: 0em;
+  top: -0.1em;
+  font-size: 1.5rem;
+  color: #e67e22;
+}
+
+.btn-plan-sign-up {
+  padding-top: 2em;
+}
+
 .btn-plan-sign-up a {
   text-decoration: none;
 }
