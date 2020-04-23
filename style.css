@@ -73,20 +73,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2em;
 }
 
 .logo {
   width: 5.25em;
   height: auto;
-}
-
-.main-nav {
-  /* margin: 0;
-  padding: 0;
-  list-style: none;
-  float: right;
-  margin-top: 5em;
-  margin-right: 20em; */
 }
 
 .main-nav li {
@@ -115,6 +107,7 @@ header {
 .hero-text-box {
   display: flex;
   flex-direction: column;
+  margin-top: 18em;
 }
 
 
