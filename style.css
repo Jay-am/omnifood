@@ -54,6 +54,12 @@ p {
   word-spacing: 0.05em;
 }
 
+.container {
+  width: 60%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Images/hero.jpg);
   background-size: cover;
@@ -105,15 +111,12 @@ header {
 
 .hero-text-box {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
   flex-direction: column;
   margin-left: 20.1em;
   margin-top: 25em;
 }
 
 .headline {
-  width: 100%;
   align-self: flex-start;
   color: white;
   font-size: 3.5rem;
@@ -169,9 +172,6 @@ header {
 /* SECTION FEATURES */
 
 .section-about {
-  width: 60%;
-  max-width: 1024px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   /* justify-content: center;
@@ -305,8 +305,6 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  width: 60%;
-  margin: 0 auto;
 }
 
 .how-it-works-content {
